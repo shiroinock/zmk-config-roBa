@@ -53,10 +53,10 @@
 
         default_layer {
             bindings = <
-&kp Q                        &lt 3 L         &lt 2 H         &lt 1 C             &kp F                                                     &kp P        &lt 1 B             &lt 2 U         &lt 3 COMMA     &kp DOT
-&mt LEFT_SHIFT A             &mt LEFT_ALT N  &mt LEFT_GUI R  &mt LEFT_CONTROL S  &kp W                 &trans              &trans          &kp K        &mt LEFT_CONTROL T  &mt LEFT_GUI E  &mt LEFT_ALT O  &mt LEFT_SHIFT I
-&kp MINUS                    &kp Z           &kp Y           &kp M               &kp V                 &kp LANGUAGE_2      &kp LANGUAGE_1  &kp G        &kp D               &kp J           &kp X           &kp SQT
-&lt_to_layer_0 6 LEFT_SHIFT  &trans          &trans          &mo 5               &mt LEFT_SHIFT SPACE  &kp TAB             &kp BACKSPACE   &lt 1 ENTER                                                      &lt_to_layer_0 6 LEFT_SHIFT
+&kp Q             &lt 3 L         &lt 2 H         &lt 1 C             &kp F                                                           &kp P          &lt 1 B             &lt 2 U         &lt 3 COMMA     &kp DOT
+&mt LEFT_SHIFT A  &mt LEFT_ALT N  &mt LEFT_GUI R  &mt LEFT_CONTROL S  &kp W    &trans                    &lt_to_layer_0 6 LEFT_SHIFT  &kp K          &mt LEFT_CONTROL T  &mt LEFT_GUI E  &mt LEFT_ALT O  &mt LEFT_SHIFT I
+&kp MINUS         &kp Z           &kp Y           &kp M               &kp V    &to 4                     &to 5                        &kp G          &kp D               &kp J           &kp X           &kp SQT
+&kp LANGUAGE_2    &trans          &trans          &trans              &kp TAB  &mt LEFT_SHIFT SPACE      &kp ENTER                    &kp BACKSPACE                                                      &kp LANGUAGE_1
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -95,7 +95,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &to 0       &to 0   &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
@@ -104,7 +104,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &to 0       &to 0   &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
